@@ -1,7 +1,7 @@
 # CycloneV_HPS_FIFO
 HPS to FPGA FIFO example for DE1 Cyclone V FPGA development board
 The project files are available on GitHub at project CycloneV_HPS_FIFO
-The Quartus project was too big for GitHub so it can be downloaded from filedropper at http://www.filedropper.com/quartusproject
+The Quartus project was trimmed down to remove the temporary and compiled files so it can fit in GitHub.  My earlier purpose in keeping everything was so the project is ready to download and run without added steps.  To try to keep to that I have also included the .SOF file you can load using the Quartus programmer.
 
   This is a pretty thinned down project to show how to pass data back and forth between the HPS to the FPGA using FIFOs.  This
 version is written for a Cyclone V FPGA (with dual HPS processors inside the FPGA) nd is set up to run on a DE1 development 
